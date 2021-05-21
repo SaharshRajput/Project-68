@@ -1,24 +1,21 @@
 html{
     scroll-behavior: smooth;
-}
-body
-{
-    text-align: center;
     background-color: #ff7700;
 }
+
 #myNavbar
 {
     display: inline;
     position: sticky;
     top: 0;
     z-index: 9;
-    
+    background-color: darkcyan;
+    color: red;
 }
-.row ::after
-{
-    display: table;
-    content: "";
-    clear: both;
+.row img{
+    text-align: center;
+    margin-left: 525px;
+
 }
 #campus_life
 {
@@ -56,4 +53,22 @@ body
 .award1_text span
 {
     color: #ff7700;
+}
+#campus_life
+{
+    width: 100%;
+}
+
+#whats_new
+{
+    width: 100%;
+}
+#school_name
+{
+    background-color: rgb(94, 221, 253);
+width: 100%;
+}
+#contact
+{
+    background-color: darkblue;
 }
